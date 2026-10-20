@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/enviar" method="post">
+        <label for="nombreCompleto">Nombre y Apellidos:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre y apellidos">
+        <br />
+        <br />
+        <label for="correo">Correo:</label>
+        <input type="email" id="coreo" name="correo" placeholder="ejemplo@gmail.es">
+        <br />
+        <br />
+        <label for="origen">Origen:</label>
+        <select name="origen">
+            <option selected>-- Elige un origen --</option>
+            <option>Oviedo</option>
+            <option>Gijón</option>
+            <option>Langreo</option>
+            <option>Avilés</option>
+        </select>
+        <br />
+        <br />
+        <label for="destino">Destino:</label>
+        <select name="destino">
+            <option selected>-- Elige un destino --</option>
+            <option>Oviedo</option>
+            <option>Gijón</option>
+            <option>Langreo</option>
+            <option>Avilés</option>
+        </select>
+        <br />
+        <br />
+        <label for="numeroAdultos">Numero de Adultos:</label>
+        <input type="number" id="numeroAdultos" name="numeroAdultos" value="0" min="0">
+        <br />
+        <br />
+        <label for="numeroNinios">Numero de Niños:</label>
+        <input type="number" id="numeroNinios" name="numeroNinios" value="0" min="0">
+        <br />
+        <br />
+        <label for="hora">Hora de partida:</label>
+        <input type="time" id="hora" name="hora">
+        <br />
+        <br />
+        <label for="hora">Fecha:</label>
+        <input type="date" id="Fecha" name="Fecha">
+        <br />
+        <br />
+        <label for="metodoPago">Elige el método de pago: </label>
+        <br />
+        <input type="radio" name="metodoPago">Efectivo
+        <br />
+        <input type="radio" name="metodoPago">Tarjeta
+        <br />
+        <input type="radio" name="metodoPago">Bizum
+        <br />
+        <input type="radio" name="metodoPago">Paypal
+        <br />
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+    </form>
+</body>
+
+</html>
