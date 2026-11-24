@@ -1,0 +1,61 @@
+nav {
+    background-color: burlywood;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link {
+    color: #0000cc
+}
+
+a:visited {
+    color: #0000cc
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    color: #f80;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+img {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50px;
+    height: 50px;
+}
+
+.imagen-flexbox {
+    float: left;
+}
+
+.navegacion {
+    float: left;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.selector-idioma{
+    float: right;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.texto-superpuesto {
+    background-color: antiquewhite;
+}
